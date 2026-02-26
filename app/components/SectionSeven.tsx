@@ -149,7 +149,7 @@ export default function SectionSeven() {
     const cameraDistance = 20;
     const aspect = width / height;
     
-    // Calculate visible dimensions at camera distance
+    // Calculate visible dimensions at camera distance hey
     const visibleHeight = 2 * Math.tan((fov * Math.PI / 180) / 2) * cameraDistance;
     const visibleWidth = visibleHeight * aspect;
     
